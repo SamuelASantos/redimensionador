@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+}
+
+header h1 {
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.preview,
+#download,
+#img-input,
+#dimensao,
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#img-input {
+    
+}
+
+#img-container {
+    display: flex;
+    width: 100vw;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 1.5rem;
+}
+
+#dimensao img {
+    margin: 0.5rem;
+}
+
+#preview {
+    width: 100%;
+    height: 100%;
+}
+
+.arrow {
+    width: 1.5rem;
+    height: 1.5rem;
+}

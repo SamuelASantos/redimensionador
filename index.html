@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.php">
+
+    <title>Redimensionador de Imagem</title>
+</head>
+<body>
+    <header>
+        <h1>Redimensionador de Imagem</h1>
+    </header>
+
+    <section>
+        <div class="preview"> 
+            <form>
+                <div>
+                    <!-- Download da imagem -->
+                    <input type="file" name="imagem" id="img-input" accept="image/png, image/jpeg">
+                </div>
+                <div id="img-container">
+                    <!-- Preview da Imagem -->
+                    <img id="preview">
+                </div>
+                <h4>Escolha a largura e altura desejada</h4>
+                <div id="dimensao">
+                    <!-- Novas dimensões -->
+                    <img class="arrow" src="/src/images/setaX.png" alt=""> 
+                    <input type="number" name="largura" id="largura" min="1"> 
+                    <img class="arrow" src="/src/images/setaY.png" alt="">
+                    <input type="number" name="altura" id="altura" min="1">
+                </div>
+                <button id="download" type="submit">Redimensionar e Baixar</button>
+            </form>
+        </div>      
+    </section>
+
+    <!-- <footer>
+        2020 - Todos os direitos reservados.
+    </footer> -->
+    <script src="main.js"></script>
+</body>
+</html>
